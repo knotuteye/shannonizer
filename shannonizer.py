@@ -22,8 +22,12 @@ def entropy(prob_list):
 
 if __name__ == "__main__":
     greeter()
-    choice = input("Enter 1 for a single event or 2 for a series of events: ")
-    if choice==1:
-        prob = input("\nEnter the probability of the event: ")
-        info = selfInformation(prob) + " bits"
-        print("The information is ",info)
+    choice = input("\nEnter 1 for a single event or 2 for a series of events: ")
+    if choice=="1":
+        print("\nSingle Event")
+        prob = input("Enter the probability of the event: ")
+        info = str(selfInformation(float(prob))) + " bits"
+        print("\nThe total information is ",info)
+    if choice=="2":
+        print("\nSeries of Events")
+        n_events = input("\nEnter the number of events")
