@@ -22,3 +22,8 @@ def entropy(prob_list):
 
 if __name__ == "__main__":
     greeter()
+    choice = input("Enter 1 for a single event or 2 for a series of events: ")
+    if choice==1:
+        prob = input("\nEnter the probability of the event: ")
+        info = selfInformation(prob) + " bits"
+        print("The information is ",info)
