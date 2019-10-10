@@ -30,4 +30,10 @@ if __name__ == "__main__":
         print("\nThe total information is ",info)
     if choice=="2":
         print("\nSeries of Events")
-        n_events = input("\nEnter the number of events")
+        n_events = input("\nEnter the number of events: ")
+        print("\nEnter the probabilities consecutively")
+        i = 0
+        probabilities = []
+        while i<n_events:
+            probabilities.append(input())
+        info = str(entropy(probabilities)) + " bits"
