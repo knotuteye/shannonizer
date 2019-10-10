@@ -17,6 +17,7 @@ def entropy(prob_list):
     sum = 0
     for info in info_list:
         sum += info
+    return sum
 
 
 if __name__ == "__main__":
