@@ -1,25 +1,3 @@
-## ＳＨＡＮＮＯＮＩＺＥＲ 
-
-Shannonizer is a Python program for calculating self-information or average information (entropy) of an event or series of events in bits.
-
-![language](https://img.shields.io/static/v1?label=Language&message=Python%203&color=yellow&style=for-the-badge&logo=python) ![status](https://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=success&style=for-the-badge&logo=)
-
-## Usage
-
-1. Clone or download and unzip the repository.
-2. Run shannonizer.py with the Python interpreter.
-
-```bash
-python shannonizer.py
-```
-
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
 MIT License
 
 Copyright (c) 2020 Kevin Nene Otuteye
